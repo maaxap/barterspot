@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context antiJARLocking="true" path="/main">
+    <Resource
+            name="jdbc/barterspot"
+            author="javax.sql.DataSource"
+            maxActive="20"
+            minIdle="8"
+            maxWait="10000"
+            username="root"
+            password="admin"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/barterspot"
+    />
+</Context>

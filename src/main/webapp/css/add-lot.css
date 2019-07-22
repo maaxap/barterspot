@@ -1,0 +1,6 @@
+.lot-image {
+	max-width: 260px;
+	max-height: 400px;
+	overflow: hidden;
+	border: 1px solid #d0d0d0;
+}

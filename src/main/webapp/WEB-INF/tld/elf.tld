@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib
+        xsi:schemaLocation="
+        http://java.sun.com/xml/ns/javaee
+        http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        version="2.1">
+    <tlib-version>1.0</tlib-version>
+    <short-name>elf</short-name>
+    <uri>ELFunctions</uri>
+    
+    <function>
+        <name>crop</name>
+        <function-class>com.aparovich.barterspot.tags.ELFunction</function-class>
+        <function-signature>java.lang.String crop(java.lang.String,int)</function-signature>
+    </function>
+
+    <function>
+        <name>getMonthName</name>
+        <function-class>com.aparovich.barterspot.tags.ELFunction</function-class>
+        <function-signature>java.util.HashMap getMonthNames(java.lang.String)</function-signature>
+    </function>
+
+    <function>
+        <name>formatBid</name>
+        <function-class>com.aparovich.barterspot.tags.ELFunction</function-class>
+        <function-signature>java.lang.String formatBid(java.lang.String)</function-signature>
+    </function>
+
+</taglib>

@@ -1,0 +1,21 @@
+.navigation-profile-img {
+	width: 28px; 
+	height: 28px; 
+	border-radius: 50%;
+	margin-left: 5px;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+	outline: none;
+  	background-color: #000000;
+}
+
+.btn-separator:after {
+    content: ' ';
+    display: block;
+    float: left;
+    background: rgb(157, 157, 157);
+    margin: 0 10px;
+    height: 50px;
+    width: 1px;
+}
